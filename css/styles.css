@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a2cffe, #003366); /* Fondo degradado celeste */
+}
+
+h1 {
+    color: #007bff;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.img-fluid {
+    margin-bottom: 15px;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.carousel-inner img {
+    height: 400px; /* Ajusta la altura del carrusel */
+    object-fit: cover;
+}
+
+#subscription img, #footer img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Ajusta la altura máxima para las imágenes */
+    object-fit: cover;
+}
+
+#footer p {
+    margin: 0;
+}
+
+.navbar.bg-custom {
+    background-color: #a2cffe; /* Color celeste de la barra de navegación */
+}
+
+.navbar .nav-link {
+    color: #003366; /* Color de los enlaces de la barra de navegación */
+}
